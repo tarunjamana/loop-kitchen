@@ -1,0 +1,48 @@
+.autocomplete{
+    min-width: 343px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    z-index: 1000;
+    input{
+        width: 100%;
+    }
+}
+
+
+.suggestions{
+    list-style-type: none;
+    box-shadow: 0 1px 0 #e5e5e5;
+    position: absolute;
+    z-index: 2000;
+    width: 343px;
+    background-color: #000;
+    top: 35px;
+    &__active{
+        font-weight: 600;
+        background-color: rgba(41,69,255,0.06);
+    }
+
+    li{
+        font-size: 20px;
+        line-height: 24px;
+        font-weight: 400;
+        color: #fff;
+        border-bottom: 1px solid #ccc;
+
+        &:last-child{
+            border: none;
+        }
+    }
+}
+
+
+.add-btn{
+    margin-left:30px;
+    padding: 12px 24px !important;
+    font-size: 1rem !important;
+    line-height: 1rem !important;
+    width: 150px;
+    height: 40px;
+}
+

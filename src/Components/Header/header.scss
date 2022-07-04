@@ -1,0 +1,21 @@
+.header{
+    display:flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    padding: 3rem;
+    background-color: aqua;
+    &__image{
+        height: 4rem;
+        width: 4rem;
+    }
+
+    &__text{
+        font-size: 2rem;
+        font-weight: 600;
+        color: #000;
+        flex: 1;
+        text-align: center;
+    }
+}

@@ -1,0 +1,17 @@
+.sidebar{
+    // style={{maxWidth:'300px',background:'#262f36',minHeight:"100vh"}}
+    max-width: 300px !important;
+    min-height: 100vh;
+    background: #262f36;
+    margin: 0 !important;
+
+    &__link{
+        color:#8b8b8b !important;
+
+        &:hover,
+        &:active,
+        &:focus{
+            color: #fff !important;
+        }
+    }
+}
